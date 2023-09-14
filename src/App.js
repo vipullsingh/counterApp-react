@@ -10,13 +10,13 @@ class A extends Component {
 
   incrementValue = () => {
     this.setState((prevState) => ({
-      value: prevState.value < 20 ? prevState.value + 1 : 20,
+      value: prevState.value < 20 ? prevState.value + 3 : 20,
     }));
   };
 
   decrementValue = () => {
     this.setState((prevState) => ({
-      value: prevState.value > 0 ? prevState.value - 1 : 0,
+      value: prevState.value > 0 ? prevState.value - 2 : 0,
     }));
   };
 
